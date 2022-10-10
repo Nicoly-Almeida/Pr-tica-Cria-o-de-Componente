@@ -15,7 +15,8 @@ import {MatMenuModule} from '@angular/material/menu';
     CommonModule,
     MatButtonModule,
     MatMenuModule
-   ]
+   ],
+  exports:[MenuComponent]
    
 })
 export class LayoutModule { }
